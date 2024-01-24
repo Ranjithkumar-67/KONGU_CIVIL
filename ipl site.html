@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Teams Showcase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 15;
+            padding: 15;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #aa51c0;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #aa51c0;
+            color: #fff;
+            text-align: center;
+            padding: 2.5em;
+        }
+
+        section {
+            padding: 40px;
+            margin: 40px 0;
+        }
+
+        footer {
+            background-color: #27add6;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 10;
+            width: 100%;
+        }
+
+        .team-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+            gap: 20px;
+        }
+
+        .team-card {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .team-card:hover {
+            transform: scale(1.05);
+        }
+
+        .team-logo {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .team-logo:hover {
+            transform: scale(1.1);
+        }
+
+        .player-list {
+            list-style: none;
+            padding: 10;
+        }
+
+        .player {
+            margin: 15px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>IPL Teams Showcase</h1>
+    </header>
+    <nav>
+        <a href="#csk">Chennai Super Kings</a> |
+        <a href="#mi">Mumbai Indians</a> |
+        <a href="#rcb">Royal Challengers Bangalore</a> |
+        <a href="#kkr">Kolkata Knight Riders</a> |
+        <a href="#rr">Rajasthan Royals</a> |
+        <a href="#dd">Delhi Daredevils</a> |
+        <a href="#srh">Sunrisers Hyderabad</a> |
+        <a href="#pk">Punjab Kings</a> |
+        <a href="#gt">Gujarat Titans</a>
+    </nav>
+
+    <section id="csk" class="team-gallery">
+        <div class="team-card">
+            <h2>Chennai Super Kings</h2>
+            <img class="team-logo" src="csk_logo.jpg" alt="CSK Logo">
+            <p>Consistent performers in the IPL, led by MS Dhoni.</p>
+            <ul class="player-list">
+                <li class="player">1. MS Dhoni (Captain)</li>
+            </ul>
+        </div>
+    </section>
+    <section id="mi" class="team-gallery">
+        <div class="team-card">
+            <h2> Mumbai Indians</h2>
+            <img class="team-logo" src="mi_logo.jpg" alt="MI Logo">
+            <p>Consistent performers in the IPL, led by Hardik Pandya</p>
+            <ul class="player-list">
+                <li class="player">1.Hardik Pandya (Captain)</li>
+            </ul>
+        </div>
+    </section><section id="rcb" class="team-gallery">
+        <div class="team-card">
+            <h2>Royal Challengers Bangalore</h2>
+            <img class="team-logo" src="rcb_logo.jpg" alt="RCB Logo">
+            <p>Consistent performers in the IPL, led by Virat Kohli</p>
+            <ul class="player-list">
+                <li class="player">1. Virat Kohli(Captain)</li>
+                </ul>
+        </div>
+    </section><section id="kkr" class="team-gallery">
+        <div class="team-card">
+            <h2>Kolkata Knight Riders</h2>
+            <img class="team-logo" src="kkr_logo.jpg" alt="KKR Logo">
+            <p>Consistent performers in the IPL, led by MS Dhoni.</p>
+            <ul class="player-list">
+                <li class="player">1. MS Dhoni (Captain)</li>
+               </ul>
+        </div>
+    </section><section id="rr" class="team-gallery">
+        <div class="team-card">
+            <h2>Rajasthan Royals</h2>
+            <img class="team-logo" src="rr_logo.jpg" alt="RR Logo">
+            <p>Consistent performers in the IPL, led by MS Dhoni.</p>
+            <ul class="player-list">
+                <li class="player">1. MS Dhoni (Captain)</li>
+                </ul>
+        </div>
+    </section><section id="dd" class="team-gallery">
+        <div class="team-card">
+            <h2>Delhi Daredevils</h2>
+            <img class="team-logo" src="dd_logo.jpg" alt="DD Logo">
+            <p>Consistent performers in the IPL, led by Gautam Gambhir</p>
+            <ul class="player-list">
+                <li class="player">1. Gautam Gambhir (Captain)</li>
+               </ul>
+        </div>
+    </section><section id="sh" class="team-gallery">
+        <div class="team-card">
+            <h2>Sunrisers Hyderabad</h2>
+            <img class="team-logo" src="sh_logo.jpg" alt="Sh Logo">
+            <p>Consistent performers in the IPL, led by MS Dhoni.</p>
+            <ul class="player-list">
+                <li class="player">1. MS Dhoni (Captain)</li>
+               </ul>
+        </div>
+    </section><section id="pk" class="team-gallery">
+        <div class="team-card">
+            <h2>Punjab Kings</h2>
+            <img class="team-logo" src="pk_logo.jpg" alt="PK Logo">
+            <p>Consistent performers in the IPL, led by MS Dhoni.</p>
+            <ul class="player-list">
+                <li class="player">1. MS Dhoni (Captain)</li>
+                 </ul>
+        </div>
+         </section><section id="gt" class="team-gallery">
+        <div class="team-card">
+            <h2>Gujarat Titans</h2>
+            <img class="team-logo" src="gt_logo.jpg" alt="GT Logo">
+            <p>Consistent performers in the IPL, led by MS Dhoni.</p>
+            <ul class="player-list">
+                <li class="player">1. MS Dhoni (Captain)</li>
+                 </ul>
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <p>&copy; 2024 IPL Teams Showcase. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
